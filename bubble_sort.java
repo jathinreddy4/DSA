@@ -1,4 +1,4 @@
-public class sort {
+public class bubble_sort {
 
     public static void print(int arr[])
     {
@@ -19,8 +19,8 @@ public class sort {
         {
             for(int j=0; j<arr.length-i-1; j++)
             {
-                if(arr[j] > arr[j+1])
-                {
+                if(arr[j] > arr[j+1])                         //this condition gives arrary basically in asccending 
+                {                                             // reverse that to get decending
                 //swap
                 int temp = arr[j];
                 arr[j]   = arr[j+1];
@@ -30,6 +30,8 @@ public class sort {
         }
         System.out.println("sorted array : ");
         print(arr);
+
+
         
     }
     
