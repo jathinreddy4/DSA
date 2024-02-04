@@ -11,14 +11,14 @@ public class selection_sort {
     }
 
     public static void main(String[] args) {
-        int arr[] = {7,8,3,1,2};
+        int arr[] = {2,13,4,1,3,6 ,28};
 
         for(int i=0; i<arr.length-1; i++)
         {
             int smallest = i;
             for(int j= i+1; j<arr.length; j++)
             {
-                if(arr[smallest] < arr[j])
+                if(arr[smallest] > arr[j])
                 {
                     smallest = j;
                 }
