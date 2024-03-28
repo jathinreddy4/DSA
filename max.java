@@ -1,5 +1,7 @@
 public class max 
 {
+    public static int length;
+
     public static void main(String[] args) 
     {
         int arr[] = {1,2,3,4,5,76,7};
